@@ -1,0 +1,137 @@
+*{
+    color: white;
+    box-sizing: border-box;
+    font-family: sans-serif,Arial;
+}
+body{
+    color: white;
+    background: rgba(8, 8, 8, 0.973);
+    margin: 0px;
+    padding: 0px;
+}
+header h1{
+    color: goldenrod;
+    margin: 25px;
+    
+}
+hr{
+    color: rgb(73, 73, 73);
+    box-shadow: 3px 3px 10px rgb(15, 15, 12);
+}
+main{
+    margin: 10px;
+}
+.navbar ul {
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 10px rgb(252, 227, 3);
+}
+
+.navbar li {
+    padding: 15px 20px;
+}
+    .navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.navbar li:hover{
+    background-color: rgb(139, 139, 139);
+}
+main .product{
+    box-shadow: 0 0 10px black;
+    float:left;
+    margin: 12.5px;
+    font-size: 25px;
+    display: flex;
+    background-color: rgb(25, 30, 41);
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.product p{
+    color: white;
+    margin: 10px;
+}
+footer{
+    margin: 10px;
+    clear:both;
+}
+i{
+    transform: translate(-5px,-1px);
+}
+.product:hover{
+    box-shadow: 0 0 15px rgb(138, 118, 6);;
+}
+.product img{
+    transform: translate(0px,0px);
+
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.product-container img {
+    box-shadow: 0 0 10px goldenrod;
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 1.5rem;
+}
+
+.product-details {
+    text-align: left;
+    max-width: 700px;
+}
+
+.product-details h2 {
+    margin-bottom: 1rem;
+    color: gold;
+}
+
+.product-details p {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+.buy-button {
+    display: block;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 16px;
+    text-align: center;
+    color: black;
+    width: 100%;
+    max-width: 700px;
+    height: 50px;
+    background-color: white;
+    border-radius: 45px;
+    box-shadow: 0 0 10px whitesmoke;
+    margin: 2rem auto 0 auto; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buy-button:hover {
+    background-color: gold;
+    transform: scale(1.02);
+}
